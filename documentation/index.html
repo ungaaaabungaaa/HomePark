@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hompark Documentation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="themezinho">
+
+<!-- Le styles -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+<style type="text/css">
+body {
+	padding-left: 220px;
+	padding-bottom: 40px;
+}
+.preview {
+	width: 800px;
+}
+.navbar-fixed-top {
+	width: 200px;
+	height: 100%;
+	right: auto;
+	background: #131314;
+}
+.navbar-inner {
+	background: none;
+	padding: 30px !important;
+}
+.navbar-fixed-top .container {
+	width: 100%;
+}
+.navbar .brand {
+	width: 100%;
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+}
+.navbar .brand img {
+	height: 30px;
+}
+.navbar .nav {
+	width: 100%;
+	float: left;
+	margin: 0;
+}
+.navbar .nav li {
+	width: 100%;
+}
+</style>
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body data-spy="scroll" id="top">
+
+<!-- Documentation Navbar -->
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="#"><strong>Hompark</strong></a> <!-- TIP: Change this for the name of your file -->
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><a href="#top" class="active">Top</a></li>
+          <li><a href="#markup">Markup</a></li>
+          <li><a href="#styles">Styles</a></li>
+          <li><a href="#javascript">JavaScript</a></li>
+          <li><a href="#psd">Photoshop</a></li>
+          <li><a href="#credits">Credits</a></li>
+          <li><a href="mailto:katmerayt@yahoo.com" >Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Navbar --> 
+
+<!-- Main Container Beginning -->
+
+<div class="container">
+  <div class="masthead">
+    <h1>Hompark | Real Estate & Luxury Homes</h1>
+    <br>
+    <p class="marketing-byline">We made another html template documentation with &hearts; by <a href="http://themeforest.net/user/themezinho">themezinho</a></p>
+    <div style="width:100%; float:left; text-align:center; margin:30px 0;"><img src="assets/img/preview.jpg" alt="Image"  class="preview" style="box-shadow: 0 0 40px #eee;"></div>
+   
+    <p>Hompark is a high quality luxury real estate template for construction companies. If you want to present your property in best way soo with Hompark you can create your own website very easily and quickly. Based on Bootstrap and all files and codes has been well organized.
+
+</p>
+  </div>
+  <!-- masthead -->
+  
+  <div id="intro">
+    <p class="highlight hero-unit">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/themezinho">here</a>. Thanks so much!</p>
+  </div>
+  <!-- intro -->
+  
+  <section id="markup">
+    <div class="page-header">
+      <h1>Markup <small>Markup customization and highlights</small></h1>
+    </div>
+    <ul>
+     <li>Animated Preloader Section</li>
+      <li>Swiper Portolio Slider</li>
+      <li>Creative Interaction UI</li>
+      <li>Fully Responsive</li>
+      <li>Soft Page Transition</li>
+      <li>Ajax PHP Contact Form</li>
+      <li>Animated Portfolio Thumbs</li>
+      <li>Header Fade Effects</li>
+      <li>Wow Scroll Animations</li>
+      <li>Audio for Hamburger</li>
+      <li>Sidebar Hamburger Menu</li>
+      <li>Gallery Boxes</li>
+      <li>HTML5 Validation</li>
+      <li>Based on Bootstrap 4.x</li>
+      <li>Fullscreen Animated Navigation</li>
+      <li>Flowless CSS transition</li>
+      <li>Fanxybox Litebox</li>
+      <li>Cross browsers support</li>
+      <li>Retina ready</li>
+      <li>Unique Blog Post Design</li>
+      <li>Video Backgrounds Page Header</li>
+      <li>Google Maps</li>
+      <li>SVG + Image icons</li>
+      <li>Google Fonts</li>
+      <li>Free quick support</li>
+    </ul>
+    <p>This theme is a builted on bootstrap framework with four columns. All of the information within the main content area is nested within a 'section'. </p>
+    <hr />
+    <div class="row">
+      <div class="span3">
+        <h3>General Markup</h3>
+        <p> The general template structure is the same throughout the template. Here is the general structure.</p>
+      </div>
+      <div class="span9">
+        <pre class="prettyprint linenums">
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+&lt;meta name="format-detection" content="telephone=no"&gt;
+&lt;meta name="theme-color" content="#282828"/&gt;
+&lt;title&gt;Hompark | Real Estate & Luxury Homes&lt;/title&gt;
+&lt;meta name="author" content="Themezinho"&gt;
+&lt;meta name="description" content="Hompark | Real Estate & Luxury Homes"&gt;
+&lt;meta name="keywords" content="Hompark, realestate, flat, apartment, benefits, facility, consultation, home, house, studio, pool, animation, transportation"&gt;
+
+&lt;!-- SOCIAL MEDIA META --&gt;
+&lt;meta property="og:description" content="Hompark | Real Estate & Luxury Homes"&gt;
+&lt;meta property="og:image" content="http://www.themezinho.net/Hompark/preview.png"&gt;
+&lt;meta property="og:site_name" content="Hompark"&gt;
+&lt;meta property="og:title" content="Hompark"&gt;
+&lt;meta property="og:type" content="website"&gt;
+&lt;meta property="og:url" content="http://www.themezinho.net/Hompark"&gt;
+
+&lt;!-- TWITTER META --&gt;
+&lt;meta name="twitter:card" content="summary"&gt;
+&lt;meta name="twitter:site" content="@Hompark"&gt;
+&lt;meta name="twitter:creator" content="@Hompark"&gt;
+&lt;meta name="twitter:title" content="Hompark"&gt;
+&lt;meta name="twitter:description" content="Hompark | Real Estate & Luxury Homes"&gt;
+&lt;meta name="twitter:image" content="http://www.themezinho.net/Hompark/preview.png"&gt;
+
+&lt;!-- FAVICON FILES --&gt;
+&lt;link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144"&gt;
+&lt;link href="ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114"&gt;
+&lt;link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72"&gt;
+&lt;link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon"&gt;
+&lt;link href="ico/favicon.png" rel="shortcut icon"&gt;
+
+&lt;!-- CSS FILES --&gt;
+&lt;link rel="stylesheet" href="css/fontawesome.min.css"&gt;
+&lt;link rel="stylesheet" href="css/animate.min.css"&gt;
+&lt;link rel="stylesheet" href="css/fancybox.min.css"&gt;
+&lt;link rel="stylesheet" href="css/odometer.min.css"&gt;
+&lt;link rel="stylesheet" href="css/swiper.min.css"&gt;
+&lt;link rel="stylesheet" href="css/bootstrap.min.css"&gt;
+&lt;link rel="stylesheet" href="css/style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+content goes here
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+      </div>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="span3">
+        <h3>How to customize sandwich menu</h3>
+        <p>It is very easy to change main color or size of hamburger</p>
+      </div>
+      <div class="span9">
+        <pre class="prettyprint linenums">
+/* SANDWICH BUTTON */
+.sandwich-btn {
+  width: 46px;
+  height: 46px;
+  float: right;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  border-radius: 50%;
+}
+.sandwich-btn span {
+  display: block;
+  height: 2px;
+  width: 22px;
+  background: #405089;
+  opacity: 1;
+  position: absolute;
+  right: 12px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+.sandwich-btn span:nth-child(1) {
+  top: 18px;
+}
+.sandwich-btn span:nth-child(2) {
+  top: 22px;
+  opacity: 0;
+}
+.sandwich-btn span:nth-child(3) {
+  top: 26px;
+}
+.sandwich-btn:hover span {
+  width: 22px;
+  right: 12px;
+  background: #f65935;
+}
+.sandwich-btn.open span:nth-child(1) {
+  top: 22px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.sandwich-btn.open span:nth-child(2) {
+  opacity: 0;
+  right: -10px;
+}
+.sandwich-btn.open span:nth-child(3) {
+  top: 22px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+/* SANDWICH MENU */
+.sandwich-menu {
+  width: 400px;
+  height: 100%;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  left: -100%;
+  top: 0;
+  background: #262d57;
+  z-index: 9;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  transition-duration: 500ms;
+  -webkit-transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  padding: 30px 40px;
+}
+.sandwich-menu .logo {
+  width: 100%;
+  float: left;
+  margin-bottom: 40px;
+}
+.sandwich-menu .logo img {
+  height: 41px;
+}
+.sandwich-menu .nav-menu {
+  display: none;
+}
+.sandwich-menu p {
+  display: block;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.sandwich-menu address {
+  display: block;
+}
+.sandwich-menu address a {
+  color: #fff;
+  opacity: 0.7;
+  text-decoration: underline;
+}
+.sandwich-menu .photo-gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.sandwich-menu .photo-gallery li {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  margin-right: 4px;
+  list-style: none;
+}
+.sandwich-menu .photo-gallery li:last-child {
+  margin-right: 0;
+}
+.sandwich-menu .photo-gallery li a {
+  float: left;
+  border: 1px solid #fff;
+}
+.sandwich-menu .social-media {
+  display: inline-block;
+  margin-bottom: 40px;
+  padding: 0;
+}
+.sandwich-menu .social-media li {
+  float: left;
+  margin-right: 16px;
+  padding: 0;
+  list-style: none;
+}
+.sandwich-menu .social-media li a {
+  color: #fff;
+  float: left;
+  font-size: 12px;
+}
+.sandwich-menu .social-media li a:hover {
+  opacity: 0.7;
+}
+.sandwich-menu .copyright {
+  display: block;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 11px;
+}
+.sandwich-menu.open {
+  left: 0;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1), 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+.sandwich-menu .nav-menu {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.sandwich-menu .nav-menu li {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 4px 0;
+  list-style: none;
+}
+.sandwich-menu .nav-menu li a {
+  width: 100%;
+  float: left;
+  color: #fff;
+  font-weight: 600;
+}
+.sandwich-menu .nav-menu li a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+.sandwich-menu .nav-menu li .dropdown {
+  display: none;
+  margin: 0;
+  padding-left: 20px;
+}
+</pre>
+      </div>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="span3">
+        <h3>Change Site Header</h3>
+        <p>Here is the css style for site header.</p>
+      </div>
+      <div class="span9">
+        <pre class="prettyprint linenums">
+/* HEADER */
+.header{ width: 100%; position: absolute; left: 0; top: -100%; z-index: 5; padding: 30px 100px; opacity: 0;}
+.header{-webkit-transition: all 1s ease; -moz-transition: all 1s ease; -ms-transform:all 1s ease; transition: all 1s ease; } 
+.header .logo{float: left; margin-right: 20px;}
+.header .logo img{ width: 35px;}
+.header .phone{float: left; color: #fff; line-height: 32px; font-family: "Fjalla One";}
+.header .language{ float: right; margin-right: 30px; margin-bottom: 0;}
+.header .language li{ float: left; list-style: none; margin: 0; margin-left: 20px; font-family: "Fjalla One";}
+.header .language li a{float: left; color: #fff; line-height: 35px;}
+.header .language li a:hover{text-decoration: none; opacity: 0.8;}
+.header .hamburger{float: right; margin-top: -5px;}
+.header .equalizer{float: right; margin-top: 5px; margin-right: 20px;}
+.overflow-hidden .header .logo img{-webkit-filter: brightness(0) invert(1); filter: brightness(0) invert(1);}
+
+
+
+
+/* DROPDOWN */
+.hamburger-navigation li:hover ul{display: block;}
+.hamburger-navigation li ul{ width: 100%; float: left; margin: 0; padding: 0; text-align: center; display: none;}
+.hamburger-navigation li ul li{width: auto; float: none; display: inline-block; padding: 0; margin: 0; position: relative;}
+.hamburger-navigation li ul li:after{content: ""; width: 6px; height: 6px; background: #fff; position: absolute; right: -5px; top: 7px; border-radius: 50%;}
+.hamburger-navigation li ul li:last-child:after{display: none;}
+.hamburger-navigation li ul li a{font-size: 15px; padding: 0 10px;}
+</pre>
+      </div>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="span3">
+        <h3>Edit loading and page transition</h3>
+        <p>Here is the css style for loading elements and classes.</p>
+      </div>
+      <div class="span9">
+        <pre class="prettyprint linenums">
+/* PAGE TRANSITION */
+.transition-overlay{ width:100%; height:100%; position:fixed; left:0; top:0; background:#F50C19; z-index:99999; opacity:0; visibility:hidden;}
+.transition-overlay{ -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; -ms-transition: all 0.5s ease; transition: all 0.5s ease;}
+.transition-overlay.show-me{ opacity:1; visibility:visible;}
+
+
+
+
+/* PRELOADER */
+.preloader{ width: 100%; height: 100%; position: fixed; left: 0; top: 0; z-index: 99; background:#f50c1a; }
+.preloader{-webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -ms-transform:all 0.4s ease; transition: all 0.4s ease;  }
+.preloader *{-webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -ms-transform:all 0.4s ease; transition: all 0.4s ease;} 
+.preloader img{ width: 80px; height: 80px; position: absolute; left: 50%; top:50%; margin-left: -40px; margin-top: -40px; z-index: 4; border-radius: 50%; padding: 10px; background: #fff;}
+
+
+
+
+/* PAGE LOADED */
+.page-loaded .preloader{ top: -100%; transition-delay: 0.60s;}
+.page-loaded .preloader img{ opacity: 0; margin-top: -120px; transition-delay: 0.30s;}
+.page-loaded .header{top: 0; opacity: 1; transition-delay: 0.6s;}
+.page-loaded .slider{transform: translateY(0); transition-delay: 0.6s; opacity: 1;}
+.page-loaded .int-hero .inner h2{transform: translateY(0); transition-delay: 0.6s; opacity: 1;}
+</pre>
+      </div>
+    </div>
+  </section>
+  <!-- Markup -->
+  
+  <section id="styles">
+    <div class="page-header">
+      <h1>Styles <small>Styles customization and highlights</small></h1>
+    </div>
+    <div class="row">
+      <div class="span3">
+        <h3>Stylesheets</h3>
+        <p>Here's a list of the stylesheet files I'm using with this template, you can find more information opening each file:</p>
+      </div>
+      <div class="span9">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>File Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>bootstrap.min.css</code></td>
+              <td>Detault bootstrap css file</td>
+            </tr>
+            <tr>
+              <td><code>font-awesome.min.css</code></td>
+              <td>Font Awesome font icons</td>
+            </tr>
+            <tr>
+              <td><code>jquery.fancybox.css</code></td>
+              <td>Litebox plug-in css</td>
+            </tr>
+            <tr>
+              <td><code>odometer.css</code></td>
+              <td>Counter for odometer</td>
+            </tr>
+            <tr>
+              <td><code>swiper.min.css</code></td>
+              <td>Swiper plug-in css</td>
+            </tr>
+            <tr>
+              <td><code>style.css</code></td>
+              <td>Template main css</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="span3">
+        <h3>Table of contents </h3>
+        <p>The second file contains all of the specific stylings for the page. The file is separated into sections using:</p>
+      </div>
+      <div class="span9">
+        <pre class="prettyprint linenums">
+01.	GOOGLE FONTS
+	02.	BODY
+	03.	CUSTOM CLASSES
+	04. FORM ELEMENTS
+	05.	SECTIONS
+	06.	HTML TAGS
+	07.	LINKS
+	08.	MODAL
+	09.	PAGINATION
+	10. PRELOADER
+	11.	TRANSITION OVERLAY
+	12.	SANDWICH BUTTON
+	13.	SCROLL DOWN
+	14.	NAVIGATION MENU
+	15.	HEADER
+	16.	SOCIAL MEDIA
+	17.	NAVBAR
+	18.	SLIDER
+	19.	PAGE HEADER
+	20.	VIDEO BG
+	21.	WORKS
+	22.	FEATURES CONTENT
+	23.	LISTING CONTENT
+	24.	FULL MEDIA CONTENT
+	25.	INTRODUCTION
+	26. OUR TEAM
+	27.	NEWS
+	28.	SAY HELLO
+	29.	LOGOS
+	30.	FOOTER
+	31.	RESPONSIVE TABLET FIXES
+	32. REPSONSIVE MOBILE FIXES
+
+					</pre>
+      </div>
+    </div>
+  </section>
+  <!-- Styles -->
+  
+  <section id="javascript">
+    <div class="page-header">
+      <h1>JavaScript <small>JavaScript customization and highlights</small></h1>
+    </div>
+    <div class="row">
+      <div class="span3">
+        <h3>JavaScript Files</h3>
+        <p>This is the list of all the jquery files are we used for our theme. </p>
+      </div>
+      <div class="span9">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Tag</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>bootstrap-datepicker.min.js</code></td>
+              <td>Datepicker jQuery</td>
+            </tr>
+            <tr>
+              <td><code>bootstrap-min.js</code></td>
+              <td>Bootstrap min</td>
+            </tr>
+            <tr>
+              <td><code>google-maps.js</code></td>
+              <td>Customized Google Maps</td>
+            </tr>
+            <tr>
+              <td><code>instagram.js</code></td>
+              <td>Instagram API plugin</td>
+            </tr>
+            <tr>
+              <td><code>isotope.js</code></td>
+              <td>Masonry grid jquery</td>
+            </tr>
+            <tr>
+              <td><code>jquery.dateFormat.js</code></td>
+              <td>Date format jQuery file</td>
+            </tr>
+            <tr>
+              <td><code>jquery.fancybox.js</code></td>
+              <td>Litebox jQuery</td>
+            </tr>
+            <tr>
+              <td><code>jquery.min.js</code></td>
+              <td>jQuery library</td>
+            </tr>
+            <tr>
+              <td><code>jquery.stellar.js</code></td>
+              <td>Parallax backgrounds - elements</td>
+            </tr>
+            <tr>
+              <td><code>npm.js</code></td>
+              <td>Bootstrap plug-in</td>
+            </tr>
+            <tr>
+              <td><code>odometer.min.js</code></td>
+              <td>Counter plugin</td>
+            </tr>
+            <tr>
+              <td><code>owl.carousel.min.js</code></td>
+              <td>Carousel plugin</td>
+            </tr>
+            <tr>
+              <td><code>scripts.js</code></td>
+              <td>All the plug-ins initializing </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="span3">
+        <h3>Equalizer</h3>
+        <p>If you want to change the equalizer, open up the file <code> scripts.js </code> and change the following code: </p>
+      </div>
+      <div class="span9">
+        <pre class="prettyprint js linenums:103">
+	// EQUALIZER TOGGLE
+			var source = "http://themezinho.net/Hompark/audio/audio.mp3";
+			var audio = new Audio(); // use the constructor in JavaScript, just easier that way
+			audio.addEventListener("load", function() {
+			  audio.play();
+			}, true);
+			audio.src = source;
+			audio.autoplay = true;
+			audio.volume = 0.2;
+
+			$('.equalizer').click();		
+			var playing = true;		
+			$('.equalizer').click(function() {
+				if (playing == false) {
+			  audio.play();
+					playing = true;
+
+				} else {
+					audio.pause();
+					playing = false;
+				}
+			});
+			
+	// EQUALIZER
+			function randomBetween(range) {
+				var min = range[0],
+					max = range[1];
+				if (min < 0) {
+					return min + Math.random() * (Math.abs(min)+max);
+				}else {
+					return min + Math.random() * max;
+				}
+			}
+
+			$.fn.equalizerAnimation = function(speed, barsHeight){
+				var $equalizer = $(this);
+				setInterval(function(){
+					$equalizer.find('span').each(function(i){
+					  $(this).css({ height:randomBetween(barsHeight[i])+'px' });
+					});
+				},speed);
+				$equalizer.on('click',function(){
+					$equalizer.toggleClass('paused');
+				});
+			}
+
+			var barsHeight = [
+			  [2, 10],
+			  [5, 14],
+			  [11, 8],
+			  [4, 18],
+			  [8, 3]
+			];
+			$('.equalizer').equalizerAnimation(180, barsHeight);
+</pre>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span3">
+        <h3>Counter</h3>
+        <p>If you want to change values of counter, open up the file <code> scripts.ks </code> and change the numbers.</p>
+      </div>
+      <div class="span9">
+        <pre class="prettyprint js linenums:103">
+// COUNTER 
+			if (!document.getElementById("counter")) {
+			} 
+			else {
+
+			var lastWasLower = false;
+				$(document).scroll(function(){
+
+				var p = $( "#counter" );
+				var position = p.position();
+				var position2 = position.top;
+
+				if ($(document).scrollTop() > position2-300){
+				if (!lastWasLower)
+					$('#1').html('21');
+					$('#2').html('37');
+					$('#3').html('78');
+
+				lastWasLower = true;
+					} else {
+				lastWasLower = false;
+				}
+				});		
+			};
+
+</pre>
+      </div>
+    </div>
+  </section>
+  <!-- JavaScript -->
+  
+  <section id="psd">
+    <div class="page-header">
+      <h1>Photoshop Files <small>Photoshop customization and highlights</small></h1>
+    </div>
+    <p>There is no included psd file with this item:</p>
+  </section>
+  <!-- Photoshop -->
+  
+  <section id="credits">
+    <div class="page-header">
+      <h1>Credits Files <small>Some of your credits and sources</small></h1>
+    </div>
+    <p>I've used the following images, icons or other files as listed.</p>
+    <h3>JavaScript</h3>
+    <ol>
+      <li><a href="#">Revolution Slider</a></li>
+      <li><a href="#">Bootstrap</a></li>
+      <li><a href="#">Isotope</a> </li>
+      <li><a href="#">Fancybox</a></li>
+      <li><a href="#">Odometer</a></li>
+      <li><a href="#">Swiper Carousel</a></li>
+      <li><a href="#">Stellar Parallax</a></li>
+    </ol>
+    <h3>Images</h3>
+    <ol>
+      <li><a href="http://www.www.istockphoto.com">http://www.istockphoto.com/</a> <small>&mdash; Some of images we used from here </small></li>
+      <li><a href="http://www.shutterstock.com/">http://www.shutterstock.com/</a> <small>&mdash; Some of images we used from here </small></li>
+    </ol>
+  </section>
+  <!-- Credits -->
+  
+  <hr />
+  <div class="goodbye">
+    <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+  </div>
+  <hr />
+  <footer>
+    <p>&copy; Company 2018 - Themezinho</p>
+  </footer>
+</div>
+<!-- /container --> 
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-transition.js"></script> 
+<script src="assets/js/bootstrap-alert.js"></script> 
+<script src="assets/js/bootstrap-modal.js"></script> 
+<script src="assets/js/bootstrap-dropdown.js"></script> 
+<script src="assets/js/bootstrap-scrollspy.js"></script> 
+<script src="assets/js/bootstrap-tab.js"></script> 
+<script src="assets/js/bootstrap-tooltip.js"></script> 
+<script src="assets/js/bootstrap-popover.js"></script> 
+<script src="assets/js/bootstrap-button.js"></script> 
+<script src="assets/js/bootstrap-collapse.js"></script>
+</body>
+</html>
